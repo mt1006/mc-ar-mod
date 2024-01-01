@@ -1,0 +1,87 @@
+{
+  "ar_mod.options": "Asynchronous Reprojection Settings",
+
+
+  "ar_mod.options.plane_reprojection_settings": "Plane Reprojection",
+  "ar_mod.options.movement_reprojection_quality": "Movement Reprojection Quality",
+  "ar_mod.options.improvements": "Improvements",
+  "ar_mod.options.debugging_options": "Debugging Options",
+
+
+  "ar_mod.options.field.camera_reprojection": "Camera Reprojection",
+  "ar_mod.options.field.camera_reprojection.desc": "Enables camera rotation reprojection.",
+
+  "ar_mod.options.field.movement_reprojection": "Movement Reprojection",
+  "ar_mod.options.field.movement_reprojection.desc": "Enables player movement reprojection.",
+
+  "ar_mod.options.field.max_reprojected_fps": "Max Reprojected FPS",
+  "ar_mod.options.field.max_reprojected_fps.37": "[disabled]",
+  "ar_mod.options.field.max_reprojected_fps.desc": "FPS limit for asynchronous reprojection. For values below 1 or above 360 limit will be disabled.",
+
+  "ar_mod.options.field.reprojection_vsync": "Reprojection VSync",
+  "ar_mod.options.field.reprojection_vsync.desc": "Enables vertical synchronization for reprojection.",
+
+
+  "ar_mod.options.field.wrapping_mode": "Wrapping Mode",
+  "ar_mod.options.field.wrapping_mode.0": "GL_CLAMP_TO_BORDER",
+  "ar_mod.options.field.wrapping_mode.1": "GL_CLAMP_TO_EDGE",
+  "ar_mod.options.field.wrapping_mode.2": "GL_REPEAT",
+  "ar_mod.options.field.wrapping_mode.3": "GL_MIRRORED_REPEAT",
+  "ar_mod.options.field.wrapping_mode.desc": "Specifies texture wrapping mode:\n0 - GL_CLAMP_TO_BORDER\n1 - GL_CLAMP_TO_EDGE\n2 - GL_REPEAT\n3 - GL_MIRRORED_REPEAT\nOther values will be treated as 1.",
+
+  "ar_mod.options.field.linear_texture_filtering": "Linear Texture Filtering",
+  "ar_mod.options.field.linear_texture_filtering.desc": "Enables linear texture filtering (the edges will be blurry).",
+
+  "ar_mod.options.field.fov_scaling": "FOV Scaling",
+  "ar_mod.options.field.fov_scaling.desc": "Ratio of rendered FOV to value set in settings.\nThe greater the value, the worse the visuals and performance, but texture wrapping is less noticeable.",
+
+
+  "ar_mod.options.field.sequence_n": "Ray Marching Iterations",
+  "ar_mod.options.field.sequence_n.desc": "Number of movement reprojection ray marching iterations.\nN in the formula for partial sum of geometric series, which is equal to the maximum supported view distance.\nThe greater the value, the higher the maximum supported view distance, but worse performance.",
+
+  "ar_mod.options.field.sequence_a0": "Initial Ray Length",
+  "ar_mod.options.field.sequence_a0.desc": "Movement reprojection ray marching first step.\nA0 (or A) in the formula for partial sum of geometric series, which is equal to the maximum supported view distance.\nThe greater the value, the worse the visuals, but higher the maximum supported view distance.",
+
+  "ar_mod.options.field.sequence_r": "Ray Length Multiplier",
+  "ar_mod.options.field.sequence_r.desc": "Movement reprojection ray marching steps ratio.\nR in the formula for partial sum of geometric series, which is equal to the maximum supported view distance.\nThe greater the value, the worse the visuals, but higher the maximum supported view distance.",
+
+
+  "ar_mod.options.field.responsive_sprinting": "Responsive Sprinting",
+  "ar_mod.options.field.responsive_sprinting.desc": "Make triggering sprinting more responsive by checking double forward key asynchronously.",
+
+  "ar_mod.options.field.responsive_flying": "Responsive Flying",
+  "ar_mod.options.field.responsive_flying.desc": "Make enabling and disabling flying more responsive by checking double jump asynchronously.",
+
+
+  "ar_mod.options.field.debug_fps_limit": "Debug FPS Limit",
+  "ar_mod.options.field.debug_fps_limit.10": "[disabled]",
+  "ar_mod.options.field.debug_fps_limit.desc": "Sets FPS limit to the value between 1 and 9.\nFor other values the limit will be the same as in Minecraft video settings.",
+
+  "ar_mod.options.field.simulate_real_delay": "Simulate Real Delay",
+  "ar_mod.options.field.simulate_real_delay.desc": "Simulates real delay for limited FPS.",
+
+  "ar_mod.options.field.offset_x": "Position Offset X",
+  "ar_mod.options.field.offset_x.desc": "Player position X offset for movement reprojection.",
+
+  "ar_mod.options.field.offset_y": "Position Offset Y",
+  "ar_mod.options.field.offset_y.desc": "Player position Y offset for movement reprojection.",
+
+  "ar_mod.options.field.offset_z": "Position Offset Z",
+  "ar_mod.options.field.offset_z.desc": "Player position Z offset for movement reprojection.",
+
+  "ar_mod.options.field.print_async_fps": "Print Reprojected FPS",
+  "ar_mod.options.field.print_async_fps.desc": "Prints to logs FPS values for asynchronous rendering.",
+
+  "ar_mod.options.field.warn_about_waiting": "Warn About Thread Waiting",
+  "ar_mod.options.field.warn_about_waiting.desc": "Prints message to logs each time render thread waits for asynchronous reprojection thread.",
+
+
+  "ar_mod.options.field.recreate_bobbing__broken": "Recreate View Bobbing",
+  "ar_mod.options.field.recreate_bobbing__broken.desc": "Recreate view bobbing (currently broken).",
+
+
+  "ar_mod.options.common.tooltip": "%s\n§8Default value: %s",
+  "ar_mod.options.common.reset_settings": "Reset Settings",
+  "ar_mod.options.common.undefined": "[undefined]",
+  "ar_mod.options.common.max_view_distance": "Maximum Supported Render Distance"
+}

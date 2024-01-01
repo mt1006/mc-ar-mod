@@ -1,0 +1,87 @@
+{
+  "ar_mod.options": "Ustawienia asynchronicznej reprojekcji",
+
+
+  "ar_mod.options.plane_reprojection_settings": "Reprojekcja płaszczyzny",
+  "ar_mod.options.movement_reprojection_quality": "Jakość reprojekcji ruchu",
+  "ar_mod.options.improvements": "Ulepszenia",
+  "ar_mod.options.debugging_options": "Opcje debugowania",
+
+
+  "ar_mod.options.field.camera_reprojection": "Reprojekcja kamery",
+  "ar_mod.options.field.camera_reprojection.desc": "Włącza reprojekcję kamery.",
+
+  "ar_mod.options.field.movement_reprojection": "Reprojekcja ruchu",
+  "ar_mod.options.field.movement_reprojection.desc": "Włącza reprojekcję ruchu.",
+
+  "ar_mod.options.field.max_reprojected_fps": "Limit FPS reprojekcji",
+  "ar_mod.options.field.max_reprojected_fps.37": "[wyłączony]",
+  "ar_mod.options.field.max_reprojected_fps.desc": "Limit FPS dla asynchronicznej reprojekcji. Dla wartości poniżej 1 lub powyżej 360, limit będzie wyłączony.",
+
+  "ar_mod.options.field.reprojection_vsync": "Synchronizacja pionowa reprojekcji",
+  "ar_mod.options.field.reprojection_vsync.desc": "Włącza synchronizację pionową dla reprojekcji.",
+
+
+  "ar_mod.options.field.wrapping_mode": "Tryb zawijania",
+  "ar_mod.options.field.wrapping_mode.0": "GL_CLAMP_TO_BORDER",
+  "ar_mod.options.field.wrapping_mode.1": "GL_CLAMP_TO_EDGE",
+  "ar_mod.options.field.wrapping_mode.2": "GL_REPEAT",
+  "ar_mod.options.field.wrapping_mode.3": "GL_MIRRORED_REPEAT",
+  "ar_mod.options.field.wrapping_mode.desc": "Określa tryb zawijania tekstury:\n0 - GL_CLAMP_TO_BORDER\n1 - GL_CLAMP_TO_EDGE\n2 - GL_REPEAT\n3 - GL_MIRRORED_REPEAT\nInne wartości będą traktowane jako 1.",
+
+  "ar_mod.options.field.linear_texture_filtering": "Liniowe filtrowanie tekstury",
+  "ar_mod.options.field.linear_texture_filtering.desc": "Włącza liniowe filtrowanie tekstury (krawędzie będą rozmazane).",
+
+  "ar_mod.options.field.fov_scaling": "Skalowanie pola widzenie",
+  "ar_mod.options.field.fov_scaling.desc": "Stosunek między renderowanym polem widzenia, a tym w ustawieniach.\nIm większa wartość tym gorsza jakość obrazu i wydajność, ale zawijanie tekstury jest mniej widoczne.",
+
+
+  "ar_mod.options.field.sequence_n": "Iteracje ray marchingu",
+  "ar_mod.options.field.sequence_n.desc": "Ilość iteracji ray marchingu przy reprojekcji ruchu.\nN we wzorze na sumę częściową ciągu geometrycznego, która jest równa maksymalnej wspieranej odległości widzenia.\nIm większa wartość, tym większy maksymalny zasięg widzenia, ale gorsza wydajność.",
+
+  "ar_mod.options.field.sequence_a0": "Początkowa długość promienia",
+  "ar_mod.options.field.sequence_a0.desc": "Pierwszy krok ray marchingu przy reprojekcji ruchu.\nA0 (lub A) we wzorze na sumę częściową ciągu geometrycznego, która jest równa maksymalnej wspieranej odległości widzenia.\nIm większa wartość, tym gorsza jakość obrazu, ale większy maksymalny zasięg widzenia.",
+
+  "ar_mod.options.field.sequence_r": "Mnożnik długości promienia",
+  "ar_mod.options.field.sequence_r.desc": "Stosunek między kolejnymi długościami promieni ray marchingu, przy reprojekcji ruchu.\nR we wzorze na sumę częściową ciągu geometrycznego, która jest równa maksymalnej wspieranej odległości widzenia.\nIm większa wartość, tym gorsza jakość obrazu, ale większy maksymalny zasięg widzenia.",
+
+
+  "ar_mod.options.field.responsive_sprinting": "Responsywny sprint",
+  "ar_mod.options.field.responsive_sprinting.desc": "Sprawia, że włączanie sprintu jest bardziej responsywne dzięki asynchronicznemu sprawdzaniu podwójnego kliknięcia przycisku chodzenia w przód.",
+
+  "ar_mod.options.field.responsive_flying": "Responsywne latanie",
+  "ar_mod.options.field.responsive_flying.desc": "Sprawia, że włączanie i wyłączanie latania jest bardziej responsywne dzięki asynchronicznemu sprawdzaniu podwójnego kliknięcia przycisku skoku.",
+
+
+  "ar_mod.options.field.debug_fps_limit": "Testowy limit FPS",
+  "ar_mod.options.field.debug_fps_limit.10": "[wyłączony]",
+  "ar_mod.options.field.debug_fps_limit.desc": "Ustawia limit FPS na wartość między 1 a 9.\nPrzy innych wartościach limit będzie ten sam co w ustawieniach graficznych Minecrafta.",
+
+  "ar_mod.options.field.simulate_real_delay": "Symuluj rzeczywiste opóźnienie",
+  "ar_mod.options.field.simulate_real_delay.desc": "Symuluje rzeczywiste opóźnienie przy ograniczonych FPS'ach.",
+
+  "ar_mod.options.field.offset_x": "Offset pozycji X",
+  "ar_mod.options.field.offset_x.desc": "Offset pozycji X gracza przy reprojekcji ruchu.",
+
+  "ar_mod.options.field.offset_y": "Offset pozycji Y",
+  "ar_mod.options.field.offset_y.desc": "Offset pozycji Y gracza przy reprojekcji ruchu.",
+
+  "ar_mod.options.field.offset_z": "Offset pozycji Z",
+  "ar_mod.options.field.offset_z.desc": "Offset pozycji Z gracza przy reprojekcji ruchu.",
+
+  "ar_mod.options.field.print_async_fps": "Wypisuj ilość FPS'ów reprojekcji",
+  "ar_mod.options.field.print_async_fps.desc": "Wypisuje do logów FPS'y asynchronicznej reprojekcji.",
+
+  "ar_mod.options.field.warn_about_waiting": "Ostrzegaj gdy wątek czeka",
+  "ar_mod.options.field.warn_about_waiting.desc": "Wypisuje wiadomość do logów za każdym razem kiedy wątek renderowania czeka na wątek asynchronicznej reprojekcji.",
+
+
+  "ar_mod.options.field.recreate_bobbing__broken": "Odtwórz animację chodzenia",
+  "ar_mod.options.field.recreate_bobbing__broken.desc": "Odtwarza animację chodzenia (obecnie nie działa poprawnie).",
+
+
+  "ar_mod.options.common.tooltip": "%s\n§8Domyślna wartość: %s",
+  "ar_mod.options.common.reset_settings": "Zresetuj ustawienia",
+  "ar_mod.options.common.undefined": "[niezdefiniowane]",
+  "ar_mod.options.common.max_view_distance": "Maksymalny wspierany zasięg renderowania"
+}
