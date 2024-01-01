@@ -1,0 +1,31 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mt1006.ar_mod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client":
+  [
+    "GameRendererMixin",
+    "MinecraftMixin",
+    "RenderTargetMixin",
+    "WindowMixin",
+    "GuiMixin",
+    "MouseHandlerMixin",
+    "KeyboardHandlerMixin",
+    "RenderSystemMixin",
+    "MainMixin",
+    "VirtualScreenMixin",
+    "InputConstantsMixin",
+    "OptionInstanceMixin",
+    "OptionsScreenMixin",
+    "MovementTutorialMixin",
+    "LocalPlayerMixin",
+    "OptionInstanceSliderMixin",
+    "fields.AbstractTextureFields",
+    "fields.MouseHandlerFields",
+    "fields.PlayerFields",
+    "fields.ScreenFields",
+    "fields.OptionInstanceFields"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
