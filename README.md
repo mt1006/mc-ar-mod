@@ -18,7 +18,7 @@ Known issues:
 - Forge version crashes when trying to resize window during startup.
 - It sometimes just crashes (for no particular reason).
 
-CurseForge page: https://legacy.curseforge.com/minecraft/mc-mods/asynchronous-reprojection
+CurseForge page: https://www.curseforge.com/minecraft/mc-mods/asynchronous-reprojection
 
 Modrinth page: https://modrinth.com/mod/asynchronous-reprojection
 
